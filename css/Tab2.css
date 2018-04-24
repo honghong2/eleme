@@ -1,0 +1,154 @@
+/*底层开始*/
+.box{
+    width: 100%;
+    height: 0.4rem;
+    background:#f0aa81;
+    position:fixed;
+    bottom:0.98rem;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+
+}
+.box .left{
+    font-size: 0.24rem;
+    color:#fff;
+}
+.box .right{
+    width: 1.6rem;
+    height: 0.4rem;
+    /*background:pink;*/
+    display: flex;
+    justify-content: space-between;
+
+}
+.box .right .jian{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-image: url("../img/erji/jianhao.png");
+    background-repeat: no-repeat;
+}
+.box .right p{
+    font-size: 0.24rem;
+}
+.box .right .jia{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-image: url("../img/erji/jiahao.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box:nth-child(2){
+    position: fixed;
+    bottom:1.38rem;
+    left:0;
+}
+.rubbish{
+    width: 100%;
+    height: 0.4rem;
+    padding:0 0.24rem;
+    background:#ffffc2;
+    position:fixed;
+    bottom:1.78rem;
+    left:0;
+    box-sizing: border-box;
+}
+.rubbish .boxx{
+    width: 1.6rem;
+    height: 100%;
+    /*background:yellowgreen;*/
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rubbish a{
+    display: block;
+    font-size:0.24rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom{
+    width: 100%;
+    height: 0.98rem;
+    background: #d0a186;
+    position:fixed;
+    bottom:0;
+    left:0;
+    padding: 0 0 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom .purchase{
+    width: 0.73rem;
+    height: 0.73rem;
+    border-radius: 50%;
+    background:#f3253d;
+    margin-top: -0.1rem;
+    box-shadow: 0 0 0.05rem 0.01rem rgba(0,0,0,0.3) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .purchase i{
+    font-size: 0.44rem;
+    color:#fff;
+}
+.bottom .number{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background:#d67237;
+    font-size: 0.18rem;
+    color:#fff;
+    text-align: center;
+    line-height: 0.2rem;
+    position:absolute;
+    bottom:0.8rem;
+    left:0.85rem;
+}
+.bottom .center{
+    width: 2rem;
+    height: 0.6rem;
+    /*background:red;*/
+    margin-top:0.2rem;
+    margin-left:0.5rem;
+}
+.bottom .center .top{
+    font-size: 0.24rem;
+    color:#fff;
+}
+.bottom .center .top del{
+    font-size: 0.18rem;
+    color:#fff;
+}
+.bottom .center .bott{
+    font-size: 0.18rem;
+    color:#fff;
+}
+.bottom .right{
+    width: 1.9rem;
+    height: 0.98rem;
+    background:#bc7952;
+    margin-right:0rem;
+    font-size: 0.3rem;
+    color:#fff;
+    line-height:0.98rem;
+    text-align: center;
+
+}

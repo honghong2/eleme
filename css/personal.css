@@ -1,0 +1,210 @@
+.top{
+    width: 100%;
+    height: 3.06rem;
+    background:#e17a3e;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.top .daohang{
+    width: 100%;
+    height: 0.68rem;
+    /*background: #649af3;*/
+}
+.top .daohang a{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .daohang a i{
+    font-size:0.44rem;
+    color:#fff;
+}
+.top .personpic{
+    width: 100%;
+    height: 2.38rem;
+    /*background:green;*/
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+.top .personpic .left{
+    width: 1.22rem;
+    height: 1.22rem;
+    background-image: url("../img/personpic/touxaing.png");
+    background-size: cover;
+}
+.top .personpic .center{
+    width: 2rem;
+    height: 1.4rem;
+    /*background:pink;*/
+    display: flex;
+    flex-direction: column;
+    margin-top:0.58rem;
+    margin-left:0.1rem;
+}
+.top .personpic .center span:nth-child(1){
+    font-size: 0.24rem;
+    color:#fff;
+}
+.top .personpic .center span:nth-child(2){
+    font-size: 0.18rem;
+    color:#fff;
+}
+.top .personpic .center span:nth-child(2) i{
+    color:#fff;
+}
+
+.top .personpic .right i{
+    font-size: 0.5rem;
+    color:#fff;
+    margin-left:3rem;
+}
+.wallet{
+    width: 100%;
+    height: 1.3rem;
+    /*background:pink;*/
+    border-bottom: 0.02rem solid #f3be9e;
+    display: flex;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+}
+.wallet .box{
+    flex-grow: 1;
+    height: 100%;
+    /*background:yellowgreen;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wallet .box span:nth-child(1){
+    font-size: 0.3rem;
+}
+.wallet .box span:nth-child(2){
+    font-size: 0.24rem;
+    color:#bdbdbc;
+}
+.VIP{
+    width:100%;
+    height:1.32rem;
+    border-bottom: 0.02rem solid #f3be9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+}
+.VIP i{
+    font-size: 0.7rem;
+    /*background:#e17a3e;*/
+}
+.VIP span{
+    font-size: 0.3rem;
+    margin-left: 0.5rem;
+}
+.address{
+    width: 100%;
+    /*background:pink;*/
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.address .box{
+    width: 100%;
+    height: 0.9rem;
+}
+.address .box .tubiao{
+    width: 2rem;
+    height: 100%;
+    font-size: 0.3rem;
+    line-height: 0.9rem;
+    float: left;
+}
+.address .box .tubiao i{
+    color:#3487cd;
+    text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,0.5);
+}
+.address .box a{
+    display: block;
+    width: 0.5rem;
+    height: 100%;
+    font-size: 0.3rem;
+    line-height: 0.9rem;
+    text-align: center;
+    float: right;
+}
+.address .box:nth-child(2) .tubiao i{
+    color:#ec5ad9;
+    text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,0.5);
+}
+.address .box:nth-child(3) .tubiao i{
+    color:yellow;
+    text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,0.5);
+}
+.address .box:nth-child(4) .tubiao i{
+    color:#50ec4c;
+    text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,0.5);
+}
+.address .box:nth-child(5) .tubiao i{
+    color:#ef4c48;
+    text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,0.5);
+}
+.address .box:nth-child(6) .tubiao i{
+    color:#4883ef;
+    text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,0.5);
+}
+.address .box:nth-child(7) .tubiao i{
+    color:#ee4ad4;
+    text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,0.5);
+}
+.buttom{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 0.98rem;
+    background:#e17a3e;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+.buttom .he{
+    width: 25%;
+    height: 100%;
+}
+.buttom .he a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttom .he i{
+    font-size: 0.4rem;
+    color:#fff;
+}
+.buttom .he span{
+    font-size: 0.24rem;
+    color: #fff;
+}
+.buttom .he a.active i{
+    color:red;
+}
+.buttom .he a.active span{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,186 @@
+input,textarestm{
+    border:none;
+    outline: none;
+}
+.main{
+    width: 100%;
+    /*background:pink;*/
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.main .pic{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-image: url("../img/dengluzhuce/touxiang.png");
+    background-size:cover;
+    margin-top:1rem;
+}
+.main .zi{
+    font-size: 0.3rem;
+    margin-top:1rem;
+}
+.main .deng{
+    width: 4rem;
+    height: 0.4rem;
+    background-image:url("../img/dengluzhuce/huanyingzhuce.png");
+    background-size:cover;
+    margin-top:0.5rem;
+}
+.main .kuang{
+    width: 5.4rem;
+    height: 4.5rem;
+    background-image: url("../img/dengluzhuce/dakuang.png");
+    background-size: cover;
+    margin-top:1rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    position: relative;
+}
+.main .kuang .ding{
+    width: 0.5rem;
+    height: 0.5rem;
+    /*background:yellow;*/
+    display: flex;
+    justify-content: space-between;
+    margin-top:0.5rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+.main .kuang .ding .dian{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background:#f29f97;
+}
+.main .kuang .ding .active{
+    background:#e6402f;
+}
+.main .kuang .phone{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 0.02rem solid #d9d9d9;
+    /*background:yellowgreen;*/
+    display: flex;
+    align-items: center;
+}
+.main .kuang .phone i{
+    color:#27aaf5;
+    text-shadow: 0 0.1rem 0.1rem rgba(0,0,0,0.5);
+}
+.main .kuang .phone .tu{
+    width: 0.23rem;
+    height: 0.23rem;
+    background-image: url("../img/dengluzhuce/huiduigou.png");
+    background-size: cover;
+    margin-left:0.8rem;
+}
+.main .kuang .text{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 0.02rem solid #d9d9d9;
+    /*background:yellowgreen;*/
+    display: flex;
+    align-items: center;
+}
+.main .kuang .text i{
+    color:#27aaf5;
+    text-shadow: 0 0.1rem 0.1rem rgba(0,0,0,0.5);
+}
+.main .kuang .text .tu{
+    width: 0.23rem;
+    height: 0.23rem;
+    background-image: url("../img/dengluzhuce/huiduigou.png");
+    background-size: cover;
+    margin-left:0.8rem;
+}
+.main .kuang .password{
+    width: 100%;
+    height:1rem;
+    border-bottom: 0.02rem solid #d9d9d9;
+    /*background:yellowgreen;*/
+    display: flex;
+    align-items: center;
+}
+.main .kuang .password i{
+    color:#f4340e;
+    text-shadow: 0 0.1rem 0.1rem rgba(0,0,0,0.5);
+}
+.main .kuang .password .tu{
+    width: 0.23rem;
+    height: 0.23rem;
+    background-image: url("../img/dengluzhuce/huiduigou.png");
+    background-size: cover;
+    margin-left:0.8rem;
+}
+.main .kuang .forget{
+    width: 2rem;
+    height: 0.4rem;
+    font-size: 0.24rem;
+    margin-left: 0;
+}
+.main .kuang .forget i{
+    color:blue;
+}
+.main .kuang .queding{
+    width:1.57rem;
+    height: 0.53rem;
+    background-image: url("../img/dengluzhuce/queren.png");
+    background-size:cover;
+    position: absolute;
+    top:4.1rem;
+    left:1.8rem;
+}
+.main .bottom{
+    width: 5rem;
+    height: 0.9rem;
+    /*background:yellowgreen;*/
+    margin-top:0.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.main .bottom .weixing{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-image: url("../img/dengluzhuce/weixin.png");
+    background-size:cover;
+}
+.main .bottom .qq{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-image: url("../img/dengluzhuce/qq(1).png");
+    background-size:cover;
+}
+.main .bottom .weibo{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-image: url("../img/dengluzhuce/weibo.png");
+    background-size:cover;
+}
+.main .xieyi{
+    width: 5rem;
+    height: 0.5rem;
+    font-size: 0.24rem;
+    text-align: center;
+    margin-top:0.5rem;
+}
+
+
+
+
+
+
+
+
+
+

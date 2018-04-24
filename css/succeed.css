@@ -1,0 +1,75 @@
+.head{
+    width: 100%;
+    height: 4.3rem;
+    background-image: url("../img/zhifu/head2.png");
+    background-size: cover;
+}
+.main{
+    width: 100%;
+    height: 8.62rem;
+    /*background:pink;*/
+    display: flex;
+    flex-direction: column;
+}
+.main .top{
+    width: 100%;
+    height: 1rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 1rem;
+    border-bottom:0.02rem solid #eee;
+}
+.main .center{
+    width: 100%;
+    height: 7.6rem;
+    /*background:blue;*/
+    font-size: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.main .center span{
+    margin-top:1rem;
+}
+.main .center b{
+    margin-top:0.3rem;
+}
+.main .center .pic{
+    width: 1.76rem;
+    height: 1.76rem;
+    background-image: url("../img/zhifu/hongduigou.png");
+    background-size:cover;
+    margin-top:1rem;
+}
+.main .center .bottom{
+    width: 100%;
+    height: 0.63rem;
+    /*background:red;*/
+    margin-top:1rem;
+    padding:0 0.5rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+.main .center .bottom .tu1{
+    width: 2.3rem;
+    height: 0.63rem;
+    background-image: url(../img/zhifu/fanhuishouye.png);
+    background-size:cover;
+}
+.main .center .bottom .tu2{
+    width: 2.3rem;
+    height: 0.63rem;
+    background-image: url(../img/zhifu/jixuguangguang.png);
+    background-size:cover;
+}
+
+
+
+
+
+
+
+
+
